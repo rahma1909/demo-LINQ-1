@@ -1,4 +1,5 @@
-﻿namespace demo
+﻿using static demo.ListGenerator;
+namespace demo
 {
     internal class Program
     {
@@ -169,7 +170,7 @@
 
             #endregion
 
-
+           
 
 
         }
