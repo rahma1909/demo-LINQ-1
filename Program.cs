@@ -92,6 +92,52 @@
             #endregion
 
 
+            #region LINQ syntax
+
+            #region 1. Fluent syntax
+
+            List<int> nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            ////call LINQ operators as => static method through enumerab;e calss
+            ////var odds = Enumerable.Where(nums, (n) => n % 2 == 1);
+
+            ////call LINQ operators as => extention method [recommended]
+            //var odds = nums.Where((n) => n % 2 == 1);
+
+            //foreach (var item in odds)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+
+            #endregion
+
+
+            #region 2.query syntax like => sql style
+
+            //var odds = from N in nums
+            //           where N % 2 == 1
+            //           select N;
+
+
+            //foreach (var item in odds)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            #endregion
+
+
+
+
+            #endregion
+
+
+
+
         }
     }
 }
