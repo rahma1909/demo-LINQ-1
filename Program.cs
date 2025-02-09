@@ -36,6 +36,26 @@
 
 
             #endregion
+
+            #region anonymous type
+           
+            //var emp = new { id = 10, name = "ahmed", salary = 1002 };
+            //Console.WriteLine(emp.GetType().Name);//<>f__AnonymousType0`3
+
+
+            ////var emp01 = new { id = 20, name = "eyad", salary = 1002 };
+            ////the same anonymous type as long as 
+            ////1. the same signature sam properties {names}
+            ////2. properties ordering
+            ////Console.WriteLine(emp.GetType().Name);//<>f__AnonymousType0`3
+
+            //emp.id = 20;//invalid
+            ////emp =new { id=20,emp.name,emp.salary};
+            ////synatx suger
+            //emp = emp with { id = 30 };//c#10.0 
+            //Console.WriteLine(emp); 
+        
+            #endregion
         }
     }
 }
