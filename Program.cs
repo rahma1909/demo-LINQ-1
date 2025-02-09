@@ -38,7 +38,7 @@
             #endregion
 
             #region anonymous type
-           
+
             //var emp = new { id = 10, name = "ahmed", salary = 1002 };
             //Console.WriteLine(emp.GetType().Name);//<>f__AnonymousType0`3
 
@@ -54,8 +54,44 @@
             ////synatx suger
             //emp = emp with { id = 30 };//c#10.0 
             //Console.WriteLine(emp); 
-        
+
             #endregion
+
+            #region extention method
+            //int x = 12345;
+            ////int y = intextensions.reverse(x);
+
+            //int z = x.reverse();
+            //Console.WriteLine(z);
+
+
+            #endregion
+
+
+            #region what is LINQ??
+            //LINQ:stands for language-integrated quary  c#3.0
+            //LINQ:40+ extension methods for the built in interface Ienumrable
+            //use linq aganist data stored in sequence
+            //sequence: is an object from calss implementing the interface "Ienumrable"
+            //local seq:
+            //remote seq:
+
+            //List<int> nums = [1, 2, 3, 56, 4, 8, 9];//local seq:obj from list ==>
+            //List<int> oddnums = nums.Where((n) => n % 2 == 1).ToList();
+
+
+            //nums.AddRange([11, 12, 13, 14]);
+
+            //foreach (var item in oddnums)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            #endregion
+
+
         }
     }
 }
