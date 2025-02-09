@@ -135,6 +135,40 @@
 
             #endregion
 
+            #region LINQ Excuation ways
+
+
+            #region 1. differed excuation
+            //var res = nums.Where((n) => n % 2 == 1);
+
+            //nums.AddRange([11, 12, 13, 45]);
+
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
+
+
+            #region 2. Immediate excuation
+            //var res = nums.Where((n) => n % 2 == 1).ToList();
+
+            //nums.AddRange([11, 12, 13, 45]);
+
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            #endregion
+
+            #endregion
+
 
 
 
